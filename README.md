@@ -1,12 +1,13 @@
-# Welcom to the Green Coding Berlin repository for Links, Documents and Resources
+## Welcome to the Green Coding Berlin repository for Links, Documents and Resources
 
 This README file serves as the entry point and index. 
 All resources are in separate files / folders.
 
 
-# Green Software Engineerig for Web
-- [Main list with helpful Links](https://github.com/green-coding-berlin/links-documents-resources/blob/main/Green-Software-Engineering-Web.md)
+### Main Link list with most content
+- [Main list with helpful Links](https://github.com/green-coding-berlin/links-documents-resources/blob/main/Links/Green-Software-Engineering-Web.md)
 
 
-# Folders
-- No folders yet. But quick summary of directory stucture will follow here
+### Folders
+- [Upcoming](https://github.com/green-coding-berlin/links-documents-resources/tree/main/Upcoming) - This folders contains drafts for upcoming / planned meetups and workshops
+- [Links](https://github.com/green-coding-berlin/links-documents-resources/tree/main/Links) - Contains all Link-Lists we have with curated and most helpful links from our perspective
