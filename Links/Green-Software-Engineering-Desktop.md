@@ -9,6 +9,9 @@
   OLEDs consume less energy on red colors and and in dark mode. But negligeable and if movement occurs it is gone
   Smartphone WIFI consumes most wattage. But it may take the least amount of time! So WattH is smallest!
 
+## Code Measurement Tools
+- [Texas State Marcher Web-Interface to run code in many programming languages and get resource usage metrics](https://greencode.cs.txstate.edu/)
+
 
 ## Browser extensions
 - https://www.debugbear.com/blog/chrome-extension-performance-2021#browser-memory-consumption
