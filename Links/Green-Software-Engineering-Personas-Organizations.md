@@ -23,6 +23,8 @@
 - https://platform.carbonfuture.earth/balancer/portfolios
 - https://www.carbonfuture.earth/participate
 
+## Directory for Green Software Developers
+- [German Directory @ Gute-Seiten.org](https://gute-seiten.org/dienstleistungsverzeichnis/)
 
 ## Academic Research
 - https://greenlab.di.uminho.pt/
