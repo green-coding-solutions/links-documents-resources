@@ -1,6 +1,7 @@
 ## Desktop software
 - https://www.youtube.com/watch?v=NQM-N1g456Y - Very good talk about UBA study. A bit old-fashioned german style but high quality.
 - https://media.ccc.de/v/36c3-10852-wie_klimafreundlich_ist_software#t=2174 - Different version about same topic from CCC
+- https://www.youtube.com/watch?v=NQM-N1g456Y - Even different version in a very good german talk, that tries to also include international certificates like epeat etc.
 - https://www.umweltbundesamt.de/publikationen/entwicklung-anwendung-von-bewertungsgrundlagen-fuer - Original UBA Talk
 
 
