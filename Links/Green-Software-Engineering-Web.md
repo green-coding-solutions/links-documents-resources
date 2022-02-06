@@ -46,6 +46,8 @@ Most not free and not on sci-hub. Others very impractical, cause they do not seg
 - https://withcabin.com/ - Low carbon Google Analytics Alternative
 - https://sustainablewebdesign.org/category/development - Best practices Checklist
 - https://nachhaltiges-webdesign.jetzt/ - Best practices directory
+- [Transfonter - Web Fonts CSS-directive generator. Slims down font package and creates loading order to prefer WOFF2 etc.](https://transfonter.org/)
+- [Squoosh - WebP / AVIF etc. Image conveter that shows compression side by side](https://squoosh.app/)
 
 ## Power Grid Energy Source
 - https://app.electricitymap.org/zone/DK-DK1 - See if energy is currently renewable or from coal etc. for your location
