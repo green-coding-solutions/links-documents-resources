@@ -43,7 +43,7 @@
 - https://greenlab.di.uminho.pt/ - Portugal
 - [Texas State Green Software Department](https://greensoft.cs.txstate.edu/)
 
-## Tools
+## Web Tools / Services
 
 - [Carbon clock](https://conf.researchr.org/series/ict4s)
 - [EnRoads Tool](https://en-roads.climateinteractive.org/scenario.html?v=22.1.0)
@@ -56,3 +56,15 @@
   + See the current CO2 intensity of the grid
 - [FlexiDAO](https://www.flexidao.com/)
   + See if your current electricity is Green. Down to energy provider level. And also including matching with vendors.
+
+## Cloud Emission
+- [Greenpixie](https://greenpixie.com/blog/cloud-emission-calculation-methodology-AWS)
+  + Based also on billing data
+  + Includes Network. But only between datacenters and not to end user. 0.001 kWh/Gb
+  + Compute seconds are known. But not utilization. Thus high uncertainty especially for small compute times
+  + To get the carbon coeffcients of the servers it uses SPECPower, Etsy Cloud Jewels and 2016 US Data Center Energy Usage Report
+  + Handles GPU power in the same way TEADS does
+  + Can handle AWS Lamda Service through custom formula that assumes linearity of memory and and vCPUs
+  + Can estimate AWS Aurora
+  + Estimates storage based on 2016 US Data center report. 0.65 W / TB for HDD;  1.2 W/TB for SSD
+  + Uses [replication factors for storage and database](https://docs.google.com/spreadsheets/d/1D7mIGKkdO1djPoMVmlXRmzA7_4tTiGZLYdVbfe85xQM/edit#gid=735227650)
