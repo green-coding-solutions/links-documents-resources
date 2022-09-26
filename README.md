@@ -65,6 +65,7 @@
   + 1.52 Wh/TBh for SSD storage [Storage]
   + No coefficients for RAM and Network. Neglected for now.
   + Cloud Service Products like BigQuery, BigTable: cannot handle.
+  + Methodology is Multi-Cloud, but [Github Tool](https://github.com/etsy/cloud-jewels) only works for GCP
 - [Greenpixie](https://greenpixie.com/blog/cloud-emission-calculation-methodology-AWS)
   + Based also on billing data
   + Includes Network. But only between datacenters and not to end user. 0.001 kWh/Gb
