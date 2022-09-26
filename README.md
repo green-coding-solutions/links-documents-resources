@@ -58,6 +58,13 @@
   + See if your current electricity is Green. Down to energy provider level. And also including matching with vendors.
 
 ## Cloud Emission
+- [Etsy Cloud Jewels](https://www.etsy.com/codeascraft/cloud-jewels-estimating-kwh-in-the-cloud)
+  + First to introduce concept
+  + 2.10 Wh per vCPUh [Server]
+  + 0.89 Wh/TBh for HDD storage [Storage]
+  + 1.52 Wh/TBh for SSD storage [Storage]
+  + No coefficients for RAM and Network. Neglected for now.
+  + Cloud Service Products like BigQuery, BigTable: cannot handle.
 - [Greenpixie](https://greenpixie.com/blog/cloud-emission-calculation-methodology-AWS)
   + Based also on billing data
   + Includes Network. But only between datacenters and not to end user. 0.001 kWh/Gb
@@ -66,5 +73,6 @@
   + Handles GPU power in the same way TEADS does
   + Can handle AWS Lamda Service through custom formula that assumes linearity of memory and and vCPUs
   + Can estimate AWS Aurora
+  + Other cloud services from Amazon like DynamoDB it cannot handle
   + Estimates storage based on 2016 US Data center report. 0.65 W / TB for HDD;  1.2 W/TB for SSD
   + Uses [replication factors for storage and database](https://docs.google.com/spreadsheets/d/1D7mIGKkdO1djPoMVmlXRmzA7_4tTiGZLYdVbfe85xQM/edit#gid=735227650)
