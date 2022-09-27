@@ -60,6 +60,8 @@
 ## Cloud Emission
 - [Etsy Cloud Jewels](https://www.etsy.com/codeascraft/cloud-jewels-estimating-kwh-in-the-cloud)
   + First to introduce concept
+  + Data coming from SPECPower and 2016 US Data Center Energy Usage Report
+  + Model includes idle wattage
   + 2.10 Wh per vCPUh [Server]
   + 0.89 Wh/TBh for HDD storage [Storage]
   + 1.52 Wh/TBh for SSD storage [Storage]
@@ -68,6 +70,7 @@
   + Methodology is Multi-Cloud, but [Github Tool](https://github.com/etsy/cloud-jewels) only works for GCP
 - [Greenpixie](https://greenpixie.com/blog/cloud-emission-calculation-methodology-AWS)
   + Based also on billing data
+  + Model includes idle wattage
   + Includes Network. But only between datacenters and not to end user. 0.001 kWh/Gb
   + Compute seconds are known. But not utilization. Thus high uncertainty especially for small compute times
   + To get the carbon coeffcients of the servers it uses SPECPower, Etsy Cloud Jewels and 2016 US Data Center Energy Usage Report
